@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #143ee7;
+}
+a:hover,
+a:visited,
+a:active{
+    color:rgb(231, 94, 15);
+    cursor: pointer;
+}
+
+#main{
+    width:80%;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+}
+
+#img-div{
+    max-width: 650px;
+    margin: 0 auto;
+}
+#image{
+   width: 100%; 
+}
+h3{
+    margin:10px 0;
+}
+p{
+    line-height: 1.75em;
+}
+
+footer{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer::after,
+footer::before{
+    content: "---#---";
+}
